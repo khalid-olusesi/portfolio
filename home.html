@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Khalid | Full-Stack Developer Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Olusesi Khalid Adebanji — Full-Stack Developer building modern, scalable, and user-friendly applications."
+    />
+    <link rel="stylesheet" href="home.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main-container">
+      <!-- NAVBAR -->
+      <nav class="hero-container" id="navbar">
+        <div class="left-hero">
+          <h2 class="logo">K</h2>
+          <p class="khalid">Khalid</p>
+        </div>
+
+        <div class="right-hero">
+          <a href="#home-section" class="nav-link home active">Home</a>
+          <a href="#about-section" class="nav-link about">About</a>
+          <a href="#skills-section" class="nav-link skills">Skills</a>
+          <a href="#projects-section" class="nav-link projects">Projects</a>
+          <a href="#gallery-section" class="nav-link gallery">Gallery</a>
+          <a href="#contact-section" class="nav-link contact">Contact</a>
+        </div>
+
+        <div class="right-end-hero">
+          <a href="#" class="theme-toggle">
+            <i class="fa-solid fa-moon"></i>
+          </a>
+        </div>
+      </nav>
+
+      <!-- HOME SECTION -->
+      <section class="home-section" id="home-section">
+        <div class="left-home-section">
+          <span class="intro">Hello, I'm</span>
+          <h1 class="name">
+            Olusesi <span class="khal">Khalid</span> Adebanji
+          </h1>
+          <h3 class="job-title">Full-Stack Developer</h3>
+          <p class="first-p-content">
+            I build modern, scalable and user-friendly applications, with a
+            passion for technology, problem solving and continuous learning.
+          </p>
+
+          <div class="cv-project-div">
+            <button
+              class="view-projects"
+              onclick="
+                document
+                  .getElementById('projects-section')
+                  .scrollIntoView({ behavior: 'smooth' })
+              "
+            >
+              <i class="fa-solid fa-code"></i>
+              View My Projects
+            </button>
+            <a
+              href="Khalid_CV.pdf"
+              download="Olusesi_Khalid_CV.pdf"
+              class="cv"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-solid fa-download"></i>
+              Download CV
+            </a>
+          </div>
+        </div>
+
+        <div class="right-home-section">
+          <div class="first-img-div">
+            <img
+              class="first-section-img"
+              src="image.png"
+              alt="Khalid Adebanji"
+            />
+          </div>
+          <span class="developer-tag">Developer<br />& Dreamer</span>
+        </div>
+      </section>
+
+      <!-- ABOUT SECTION -->
+      <section class="second-section" id="about-section">
+        <div class="img-1-div">
+          <img class="img-1" src="image1.png" alt="Coding setup" />
+        </div>
+
+        <div class="about-me-div">
+          <h2 class="about-me">
+            <span class="about-bar"></span>About <span class="me">Me</span>
+          </h2>
+          <p class="about-me-p">
+            I'm Olusesi Khalid, a final-year Microbiology student at the
+            University of Lagos, and a passionate Full-Stack Developer. I enjoy
+            building useful software, exploring new technologies, and solving
+            real-world problems through code.
+          </p>
+
+          <p class="about-me-p-cont">
+            When I'm not coding, you'll find me boxing, learning Chinese, or
+            exploring tech trends. I'm always open to new opportunities and
+            eager to contribute to innovative projects.
+          </p>
+        </div>
+
+        <div class="details">
+          <p class="location">
+            <span class="detail-icon location-icon">
+              <i class="fa-solid fa-location-dot"></i>
+            </span>
+            <span class="detail-text">Lagos, Nigeria</span>
+          </p>
+          <p class="degree">
+            <span class="detail-icon degree-icon">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </span>
+            <span class="detail-text"
+              >B.Sc. Microbiology<br />(UNILAG, 2027)</span
+            >
+          </p>
+          <p class="email">
+            <span class="detail-icon email-icon">
+              <i class="fa-solid fa-envelope"></i>
+            </span>
+            <span class="detail-text">Olusesikhalid43@gmail.com</span>
+          </p>
+          <p class="available">
+            <span class="detail-icon available-icon">
+              <i class="fa-solid fa-circle"></i>
+            </span>
+            <span class="detail-text">Available for opportunities</span>
+          </p>
+        </div>
+      </section>
+
+      <!-- SKILLS SECTION -->
+      <section class="skills-section" id="skills-section">
+        <div class="skills-left">
+          <h2 class="skills-title">
+            My <span class="skills-highlight">Skills</span>
+          </h2>
+          <p class="skills-desc">
+            A versatile developer with strong foundations in modern web
+            technologies.
+          </p>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <i class="fa-brands fa-html5 skill-icon html-icon"></i>
+            <span class="skill-name">HTML</span>
+          </div>
+          <div class="skill-card">
+            <i class="fa-brands fa-css3-alt skill-icon css-icon"></i>
+            <span class="skill-name">CSS</span>
+          </div>
+          <div class="skill-card">
+            <i class="fa-brands fa-js skill-icon js-icon"></i>
+            <span class="skill-name">JavaScript</span>
+          </div>
+          <div class="skill-card">
+            <i class="fa-brands fa-react skill-icon react-icon"></i>
+            <span class="skill-name">React</span>
+          </div>
+          <div class="skill-card">
+            <i class="fa-brands fa-node skill-icon next-icon"></i>
+            <span class="skill-name">Next.js</span>
+          </div>
+          <div class="skill-card">
+            <i class="fa-brands fa-golang skill-icon go-icon"></i>
+            <span class="skill-name">Go</span>
+          </div>
+          <div class="skill-card">
+            <i class="fa-solid fa-database skill-icon postgres-icon"></i>
+            <span class="skill-name">PostgreSQL</span>
+          </div>
+          <div class="skill-card">
+            <i class="fa-brands fa-js skill-icon ts-icon"></i>
+            <span class="skill-name">TypeScript</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS SECTION -->
+      <section class="projects-section" id="projects-section">
+        <div class="projects-left">
+          <h2 class="projects-title">
+            My <span class="projects-highlight">Projects</span>
+          </h2>
+          <p class="projects-desc">
+            A showcase of some projects I've built and worked on.
+          </p>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-card-header">
+              <div class="project-icon-wrapper">
+                <i class="fa-solid fa-note-sticky project-icon"></i>
+              </div>
+              <div class="project-info">
+                <h3 class="project-name">KhalNote</h3>
+                <p class="project-desc">
+                  A powerful and feature-rich note-taking app with AI chat,
+                  tags, reminders and more.
+                </p>
+              </div>
+              <a
+                href="https://note-pad-app-nu.vercel.app/"
+                target="_blank"
+                class="project-arrow"
+                ><i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+            <div class="project-tags">
+              <span class="project-tag">Next.js</span>
+              <span class="project-tag">Convex</span>
+              <span class="project-tag">TypeScript</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link"
+                ><i class="fa-brands fa-github"></i> View Code</a
+              >
+              <a
+                href="https://note-pad-app-nu.vercel.app/"
+                target="_blank"
+                class="project-link"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i> Live
+                Demo</a
+              >
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-card-header">
+              <div class="project-icon-wrapper react-project">
+                <i class="fa-solid fa-chart-line project-icon"></i>
+              </div>
+              <div class="project-info">
+                <h3 class="project-name">KhalFinTrack</h3>
+                <p class="project-desc">
+                  A personal finance tracker to help you manage budgets and
+                  track expenses.
+                </p>
+              </div>
+              <a
+                href="https://khal-fintrack.vercel.app/"
+                target="_blank"
+                class="project-arrow"
+                ><i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+            <div class="project-tags">
+              <span class="project-tag">Go</span>
+              <span class="project-tag">Next.js</span>
+              <span class="project-tag">TypeScript</span>
+              <span class="project-tag">PostgreSQL</span>
+              <span class="project-tag">Gin</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link"
+                ><i class="fa-brands fa-github"></i> View Code</a
+              >
+              <a
+                href="https://khal-fintrack.vercel.app/"
+                target="_blank"
+                class="project-link"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i> Live
+                Demo</a
+              >
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-card-header">
+              <div class="project-icon-wrapper">
+                <i class="fa-solid fa-link project-icon"></i>
+              </div>
+              <div class="project-info">
+                <h3 class="project-name">URL Shortener</h3>
+                <p class="project-desc">
+                  A fast and efficient URL shortening service built with Go and
+                  Redis.
+                </p>
+              </div>
+              <a
+                href="https://github.com/khalid-olusesi/url-shortener"
+                target="_blank"
+                class="project-arrow"
+                ><i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+            <div class="project-tags">
+              <span class="project-tag">Go</span>
+              <span class="project-tag">Redis</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/khalid-olusesi/url-shortener"
+                target="_blank"
+                class="project-link"
+                ><i class="fa-brands fa-github"></i> View Code</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- GALLERY SECTION -->
+      <section class="gallery-section" id="gallery-section">
+        <div class="gallery-left">
+          <h2 class="gallery-title">Gallery</h2>
+          <p class="gallery-desc">Moments, vibes and memories.</p>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="image2.png" alt="Gallery photo 1" />
+          </div>
+          <div class="gallery-item">
+            <img src="image3.png" alt="Gallery photo 2" />
+          </div>
+          <div class="gallery-item">
+            <img src="image4.png" alt="Gallery photo 3" />
+          </div>
+          <div class="gallery-item">
+            <img src="image5.png" alt="Gallery photo 4" />
+          </div>
+          <div class="gallery-item">
+            <img src="image6.png" alt="Gallery photo 5" />
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT SECTION -->
+      <section class="contact-section" id="contact-section">
+        <div class="contact-left">
+          <h2 class="contact-title">
+            Get <span class="contact-highlight">In Touch</span>
+          </h2>
+          <p class="contact-desc">
+            Have a project in mind, a question, or just want to say hello? Feel
+            free to reach out!
+          </p>
+          <div class="contact-socials">
+            <a
+              href="https://github.com/khalid-olusesi"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="contact-social-link"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/olusesi-khalid-931a44347/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="contact-social-link"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a
+              href="mailto:olusesikhalid43@gmail.com"
+              class="contact-social-link"
+              ><i class="fa-solid fa-envelope"></i
+            ></a>
+          </div>
+        </div>
+        <div class="contact-form-wrapper">
+          <form class="contact-form" id="contact-form" method="POST">
+            <div class="form-row">
+              <input
+                type="text"
+                name="name"
+                class="form-input"
+                placeholder="Your Name"
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                class="form-input"
+                placeholder="Your Email"
+                required
+              />
+            </div>
+            <textarea
+              name="message"
+              class="form-textarea"
+              placeholder="Your Message"
+              rows="5"
+              required
+            ></textarea>
+            <button type="submit" class="send-message" id="send-btn">
+              <span class="btn-text">Send Message</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+            <div class="form-status" id="form-status"></div>
+          </form>
+        </div>
+        <div class="contact-cursive">
+          <p class="cursive-text">
+            Let's build<br />something amazing<br />together!
+          </p>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <footer class="footer">
+        <p class="footer-left">
+          &copy; 2026 Olusesi Khalid. All rights reserved.
+        </p>
+        <p class="footer-right">
+          Built with <span class="heart">&hearts;</span> using HTML, CSS &
+          JavaScript
+        </p>
+      </footer>
+    </div>
+
+    <script src="home.js"></script>
+  </body>
+</html>
