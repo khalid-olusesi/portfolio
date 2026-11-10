@@ -1,4 +1,4 @@
-// ==================== SMOOTH SCROLL NAV ====================
+
 const navLinks = document.querySelectorAll('.nav-link');
 
 navLinks.forEach(link => {
@@ -16,7 +16,6 @@ navLinks.forEach(link => {
   });
 });
 
-// ==================== ACTIVE NAV ON SCROLL ====================
 const sections = document.querySelectorAll('section[id]');
 
 function highlightNav() {
@@ -40,7 +39,6 @@ function highlightNav() {
 
 window.addEventListener('scroll', highlightNav);
 
-// ==================== THEME TOGGLE ====================
 const themeToggle = document.querySelector('.theme-toggle');
 const themeIcon = themeToggle.querySelector('i');
 
@@ -70,7 +68,6 @@ themeToggle.addEventListener('click', (e) => {
   }
 });
 
-// ==================== SCROLL REVEAL ====================
 const revealElements = document.querySelectorAll(
   '.skill-card, .project-card, .gallery-item, .details, .about-me-div, .img-1-div, .contact-form-wrapper, .contact-cursive'
 );
@@ -90,19 +87,17 @@ const revealObserver = new IntersectionObserver((entries) => {
 
 revealElements.forEach(el => revealObserver.observe(el));
 
-// ==================== STAGGER SKILL CARDS ====================
 const skillCards = document.querySelectorAll('.skill-card');
 skillCards.forEach((card, i) => {
   card.style.transitionDelay = `${i * 0.08}s`;
 });
 
-// ==================== STAGGER GALLERY ITEMS ====================
 const galleryItems = document.querySelectorAll('.gallery-item');
 galleryItems.forEach((item, i) => {
   item.style.transitionDelay = `${i * 0.1}s`;
 });
 
-// ==================== NAVBAR SHADOW ON SCROLL ====================
+
 const navbar = document.getElementById('navbar');
 
 window.addEventListener('scroll', () => {
@@ -114,7 +109,7 @@ window.addEventListener('scroll', () => {
 });
 
 
-// ==================== CONTACT FORM ====================
+
 document.addEventListener('DOMContentLoaded', function () {
   const contactForm = document.getElementById('contact-form');
   const sendBtn = document.getElementById('send-btn');
